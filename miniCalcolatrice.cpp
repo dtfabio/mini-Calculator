@@ -1,8 +1,7 @@
-//Di Tommaso Fabio - Lazzaro Fabrizio - 4C SIA
 #include<iostream>
 using namespace std;
 
-int add(int n1, int n2)     //Addizione
+int add(int n1, int n2)     
 {
     int ris;
     
@@ -10,7 +9,7 @@ int add(int n1, int n2)     //Addizione
     
     return ris;
 }
-int mol(int n1, int n2)            //Moltiplicazione
+int mol(int n1, int n2)           
 {
     int ris;
     
@@ -18,7 +17,7 @@ int mol(int n1, int n2)            //Moltiplicazione
     
     return ris;
 }
-float divi(float n1, float n2)            //Divisione
+float divi(float n1, float n2)        
 {
     float ris;
     
@@ -27,7 +26,7 @@ float divi(float n1, float n2)            //Divisione
     
     return ris;
 }
-int sot(int n1, int n2)    //Sottrazione
+int sot(int n1, int n2)   
 {
     int ris;
     
@@ -44,7 +43,7 @@ int main()
     float operazione2;
     int operazione3;
     int operazione4;
-    int a;          //variabile per individuare il tipo di operazione da svolgere
+    int a;      
     
         cout<<"inserire il primo numero";
         cin>>num1;
