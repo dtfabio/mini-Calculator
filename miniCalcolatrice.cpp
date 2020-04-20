@@ -63,7 +63,7 @@ int main()
             operazione2=divi(num1,num2);
             cout<<"Il quoziente dei numeri e': "<<operazione2<<endl;
     }  
-    if(a==3)
+    if(a==3) 
     {       
             operazione3=mol(num1,num2);
             cout<<"Il prodotto dei numeri e': "<<operazione3<<endl;
